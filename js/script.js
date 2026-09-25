@@ -507,5 +507,5 @@ function init() {
 
   highlightActiveLink();
 }
-
+init()
 document.addEventListener('DOMContentLoaded', init);
