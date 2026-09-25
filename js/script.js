@@ -507,6 +507,5 @@ function init() {
 
   highlightActiveLink();
 }
-console.log(global.currentPage)
-init()
+
 document.addEventListener('DOMContentLoaded', init);
