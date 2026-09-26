@@ -494,18 +494,31 @@ function init() {
     case '/shows.html':
       displayPopularShows();
       break;
+       case '/shows':
+      displayPopularShows();
+      break;
     case '/movie-details.html':
+      displayMovieDetails();
+      break;
+        case '/movie-details':
       displayMovieDetails();
       break;
     case '/tv-details.html':
       displayShowDetails();
       break;
+       case '/tv-details':
+      displayShowDetails();
+      break;
     case '/search.html':
+      search();
+      break;
+          case '/search':
       search();
       break;
   }
 
   highlightActiveLink();
 }
+
 
 document.addEventListener('DOMContentLoaded', init);
